@@ -1,0 +1,24 @@
+# Client Files.
+Errores.log
+Fotos/*
+Codigo/*.log
+*.vbw
+*.oca
+*.csi
+*.lvw
+*.OBJ
+INIT/Inicio.con
+INIT/sinfo.dat
+INIT/Config.ini
+INIT/AO.dat
+INIT/messages.txt
+ImperiumClasico.exe
+ImperiumClasico.exe.manifest
+
+# System Files.
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump

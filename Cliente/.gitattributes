@@ -1,0 +1,48 @@
+# Auto-CRLF setting.
+* text eol=crlf
+# Declare file types.
+# The - is a negation symbol, so  -text it means"not" text
+*.msv -text
+*.frx -text
+*.ico -text
+*.png -text
+*.psd -text
+*.cur -text
+*.gif -text
+*.jpg -text
+*.gif -text
+*.bmp -text
+*.mcl -text
+*.dll -text
+*.ind -text
+*.con -text
+*.bin -text
+*.mid -text
+*.mp3 -text
+*.wav -text
+*.IAC -text
+*.ocx -text
+*.OCX -text
+*.csm -text
+*.cur binary
+*.exe -text
+
+Recursos/*.IAC -text
+Recursos/Skins/Imperium.IAC -text
+Recursos/Lenguajes/CharInfo_english.dat -text
+Recursos/Lenguajes/CharInfo_spanish.dat -text
+Recursos/Lenguajes/english.json -text
+Recursos/Lenguajes/spanish.json -text
+Recursos/Lenguajes/tips_english.json -text
+Recursos/Lenguajes/tips_spanish.json -text
+Recursos/Lenguajes/Tutorial_english.dat -text
+Recursos/Lenguajes/Tutorial_spanish.dat -text
+Recursos/Lenguajes/*.json -text
+Recursos/Lenguajes/*.dat -text
+
+# Declare encoding of all files for code.
+*.bas encoding=ansi
+*.cls encoding=ansi
+*.vbp encoding=ansi
+*.frm encoding=ansi
+*.json encoding=ansi
