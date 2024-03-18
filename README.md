@@ -27,6 +27,20 @@ Repositorio de la web: https://github.com/Lorwik/ImperiumClasico-WebAngular
 Para abrir el servidor es necesario contar con una base de datos MySQL y MySQL ODBC 8.0 ANSI Driver.
 En la carpeta Configuracion del servidor encontraras un archivo llamado DataBase.ini, ahi deberas configurar los datos para la conexión a la base de datos. En la carpeta Fixtures encontraras 2 archivos SQL que corresponde a las cuentas/web y a los personajes.
 
+Para configurar la IP y el puerto debes crear un archivo .txt con el siguiente contenido y subirlo a la web:
+
+127.0.0.1|7666|LocalHost;127.0.0.1|7666|Servidor Secundario
+
+IP|PUERTO|NOMBRE DEL SERVIDOR;
+
+En el Mod_General del cliente busca:
+
+Public Sub ListarServidores()
+
+y en la siguiente linea cambia la URL donde alojas el archivo .txt:
+
+responseServer = Inet.OpenRequest("https://tuurl.com/server-listiac.txt", "GET")
+
 # Creditos:
 
 By Lorwik
