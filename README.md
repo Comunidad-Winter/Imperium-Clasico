@@ -1,6 +1,6 @@
 ## Imperium Clasico
 
-Clon de ImperiumAO ambientado en las versiones clásicas (1.3 & 1.4)
+Clon de ImperiumAO ambientado en las versiones clásicas (1.3 & 1.4) [Mod AOLibre]
 
 - Se paso el control de mucho de los sistemas que no debian de estar en el cliente al servidor.
 - Utiliza 2 servidores SQL, uno para cuentas y otro para personajes.
